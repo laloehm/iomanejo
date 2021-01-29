@@ -9,16 +9,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>Io Manejo</title>
 </head>
 
 <body>
     <section class="home pb-5">
-        <div class="box-logo pt-5">
+        <div class="box-logo pt-5 wow fadeIn" data-wow-duration=".5">
             <img src="images/Logo.png" alt="">
         </div>
-        <div class="nosotros p-5">
+        <div class="nosotros p-5 wow fadeInLeft" data-wow-delay=".5s">
             <p>Somos una escuela de manejo basada en la Ciudad de México con la misión aportar una visión fresca y diferente
                 a las escuelas tradicionales.</p>
             <p>Aprende a tu ritmo, en auto, camioneta o motocicleta en una combinación perfecta de dinamismo y experiencia. </p>
@@ -26,21 +27,22 @@
             <p>Nuestra propuesta es simple y directa, una afirmación: ¡iO manejo!</p>
         </div>
     </section>
-
-    <section class="contacto p-5">
-        <img src="images/Blue_dots.png" class="img-fluid blue-dots" alt="">
+    <div class="division bg-dark">
+        <img src="images/Blue_dots.png" class="img-fluid blue-dots wow fadeIn" alt="" data-wow-delay="1s">
+    </div>
+    <section class="contacto px-5 pb-5">
         <h2 class="title mb-3">CONTACTO</h2>
-        <a href=""><img src="images/whats.png" class="img-fluid" alt=""> 55 5432 2040</a>
-        <a href=""><img src="images/Twitter.png" class="img-fluid" alt=""> @iomanejo</a>
-        <a href=""><img src="images/Correo.png" class="img-fluid" alt=""> iomanejo.cdmx@gmail.com</a>
-        <a href="" class="pr-5"><img src="images/Ubicacion.png" class="img-fluid" alt=""> Tomás Alva Edison num 173 <br> Col. San Rafael, Alc. Cuauhtémoc, <br> Ciudad de México</a>
-        <img src="images/Dona.png" class="img-fluid dona" alt="">
+        <a href="https://api.whatsapp.com/send?phone=+5215554322040" target="_blank" rel="noopener"><img src="images/whats.png" class="img-fluid" alt=""> 55 5432 2040</a>
+        <a href="https://twitter.com/iomanejo" target="_blank" rel="noopener"><img src="images/Twitter.png" class="img-fluid" alt=""> @iomanejo</a>
+        <a href="mailto:iomanejo.cdmx@gmail.com" target="_blank" rel="noopener"><img src="images/Correo.png" class="img-fluid" alt=""> iomanejo.cdmx@gmail.com</a>
+        <a href="https://goo.gl/maps/Wb8BRDD5vnK5Nc8MA" target="_blank" rel="noopener" class="pr-5"><img src="images/Ubicacion.png" class="img-fluid" alt=""> Tomás Alva Edison num 173 <br> Col. San Rafael, Alc. Cuauhtémoc, <br> Ciudad de México</a>
+        <img src="images/Dona.png" class="img-fluid dona wow pulse" data-wow-delay="2s" alt="">
     </section>
 
     <!-- SERVICIOS -->
-    <section class="servicios py-5 pl-5">
+    <section class="servicios pt-5 pl-5">
         <h2 class="title mb-5">SERVICIOS</h2>
-        <div class="row">
+        <div class="row wow fadeIn">
             <div class="col-3 pl-0 line">
                 <img src="images/Semaforo.png" class="img-fluid" alt="">
             </div>
@@ -49,7 +51,7 @@
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos <span> Básico, Medio, Avanzado y Reforzamiento</span></p>
             </div>
         </div>
-        <div class="row my-4">
+        <div class="row wow fadeIn my-4" data-wow-delay=".5s">
             <div class="col-3 pl-0">
                 <img src="images/Carretera.png" class="img-fluid" alt="">
             </div>
@@ -58,7 +60,7 @@
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos para <span>CARRETERA</span></p>
             </div>
         </div>
-        <div class="row">
+        <div class="row wow fadeIn" data-wow-delay=".75s">
             <div class="col-3 pl-0">
                 <img src="images/Moto.png" class="img-fluid" alt="">
             </div>
@@ -67,7 +69,7 @@
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos para <span>MOTOCICLETA</span></p>
             </div>
         </div>
-        <div class="row my-4">
+        <div class="row my-4 wow fadeIn" data-wow-delay="1s">
             <div class="col-3 pl-0">
                 <img src="images/Herramientas.png" class="img-fluid" alt="">
             </div>
@@ -105,7 +107,8 @@
             <p class="text-uppercase">Todos los cursos incluyen curso teórico del Reglamento de Tránsito Metropolitano, Tips en Condiciones Adversas y Cuidado Preventivo del Vehículo.</p>
         </div>
     </section>
-
+    <div class="division">
+        <img src="images/Dots-Precios.png" class="img-fluid" alt=""></div>
     <section class="precios">
         <h2 class="title px-5 mb-5">PRECIOS</h2>
         <!-- Header -->
@@ -323,21 +326,21 @@
             </div>
         </div>
     </section>
-    <!-- <div class="division">
+    <div class="division">
         <img src="images/Dots-Footer.png" class="img-fluid dots-footer" alt="">
-    </div> -->
+    </div>
     <!-- Footer -->
     <section class="contacto-footer">
-        <img src="images/Dots-Footer.png" class="img-fluid dots-footer" alt="">
+        <!-- <img src="images/Dots-Footer.png" class="img-fluid dots-footer" alt=""> -->
         <h2 class="title px-5 mb-5">CONTACTO</h2>
         <div class="botones px-5">
-            <a href=""><img src="images/whats.png" class="img-fluid" alt=""> 55 5432 2040</a>
-            <a href=""><img src="images/Twitter.png" class="img-fluid" alt=""> @iomanejo</a>
-            <a href=""><img src="images/Correo.png" class="img-fluid" alt=""> iomanejo.cdmx@gmail.com</a>
-            <a href=""><img src="images/Ubicacion.png" class="img-fluid" alt=""> Tomás Alva Edison num 173 <br> Col. San Rafael, Alc. Cuauhtémoc, <br> Ciudad de México</a>
+            <a href="https://api.whatsapp.com/send?phone=+5215554322040" target="_blank" rel="noopener"><img src="images/whats.png" class="img-fluid" alt=""> 55 5432 2040</a>
+            <a href="https://twitter.com/iomanejo" target="_blank" rel="noopener"><img src="images/Twitter.png" class="img-fluid" alt=""> @iomanejo</a>
+            <a href="mailto:iomanejo.cdmx@gmail.com" target="_blank" rel="noopener"><img src="images/Correo.png" class="img-fluid" alt=""> iomanejo.cdmx@gmail.com</a>
+            <a href="https://goo.gl/maps/Wb8BRDD5vnK5Nc8MA" target="_blank" rel="noopener"><img src="images/Ubicacion.png" class="img-fluid" alt=""> Tomás Alva Edison num 173 <br> Col. San Rafael, Alc. Cuauhtémoc, <br> Ciudad de México</a>
         </div>
         <img src="images/Footer.png" class="img-fluid logo" alt="">
-        <img src="images/Im_dona footer.png" class="dona-footer" alt="">
+        <img src="images/Im_dona footer.png" class="dona-footer wow pulse" alt="">
     </section>
 
 
@@ -346,6 +349,14 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
