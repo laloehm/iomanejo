@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "Nexa-Regular";
+    src: url("../Fonts/NexaRegular.otf");
+}
+
+@font-face {
+    font-family: "Nexa-Bold";
+    src: url("../Fonts/NexaBlack.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Nexa-Regular', serif;
+}
+
+section {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0;
+}
+
+h2.title {
+    color: #94e300;
+    font-family: 'Nexa-Bold', serif;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #ff6529 !important;
+}
+
+.border-right {
+    border-right: 2px solid #ff6529 !important;
+}
+
+.border-left {
+    border-left: 2px solid #ff6529 !important;
+}
+
+.border-top {
+    border-top: 2px solid #ff6529 !important;
+}
+
+/* Home */
+.home {
+    background: #001418;
+    background-image: url(../images/Bg-Home.jpg);
+    background-position: center -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home .box-logo {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .box-logo img {
+    width: 200px;
+}
+
+.nosotros {
+    color: #ffffff;
+}
+
+.contacto {
+    background: #001418;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.contacto img.blue-dots {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -100px;
+}
+
+.contacto a,
+.contacto-footer a {
+    display: flex;
+    color: #ffffff;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.contacto a img,
+.contacto-footer a img {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.contacto .dona {
+    position: absolute;
+    bottom: -112px;
+    width: 110px;
+    right: 0;
+}
+
+/* Servicios */
+p.number {
+    font-family: 'Nexa-Bold';
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.servicios p span {
+    font-family: 'Nexa-Bold';
+    text-transform: uppercase;
+}
+
+.servicios p.asteriscos {
+    font-size: 2.5rem;
+    color: #94e300;
+    text-align: right;
+    line-height: 1.3;
+}
+
+.servicios .line::after {
+    content: '';
+    height: 390%;
+    width: 2px;
+    display: block;
+    background: #ff6529;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Precios */
+.precios .row.header {
+    background: #ff6529;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.precios .row.header div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.precios .row.header div p {
+    margin: 0;
+}
+
+.precios .row span {
+    font-family: 'Nexa-Bold', serif;
+}
+
+.precios p.precios {
+    font-family: 'Nexa-Bold', serif;
+}
+
+/* PROMOCIONES */
+.promociones {
+    background: #002733;
+    color: #ffffff;
+}
+
+.promociones .row .col-10 {
+    border-bottom: 2px solid #ff6529;
+    border-left: 2px solid #ff6529;
+}
+
+.promociones .precio {
+    color: #95e300;
+    font-family: 'Nexa-Bold', serif;
+}
+
+.promociones .font-weight-bold {
+    font-family: 'Nexa-Bold', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* Instructores */
+.instructores ul {
+    list-style: none;
+}
+
+.instructores .border {
+    border: 2px solid #ff6529 !important;
+    border-right: none !important;
+}
+
+.instructores ul.font-weight-bold li {
+    font-family: 'Nexa-Bold', serif;
+}
+
+.instructores p.name {
+    font-family: 'Nexa-Bold', serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.contacto-footer {
+    position: relative;
+    margin-top: 150px;
+}
+
+.contacto-footer a {
+    color: #000;
+}
+
+.contacto-footer .logo {
+    width: 70%;
+}
+
+.contacto-footer .dona-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+.contacto-footer .dots-footer {
+    position: absolute;
+    top: -180px;
+}
+
+/* .box-logo {
+    background-image: url(../images/Bg-Logo.png);
+    background-position: center;
+    background-size: cover;
+} */
+
+@media(max-width: 399px) {
+    .contacto {
+        padding-top: 50px;
+    }
+
+    .contacto-footer {
+        position: relative;
+        margin-top: 110px;
+    }
+
+    .contacto-footer .dots-footer {
+        position: absolute;
+        top: -150px;
+    }
+}
