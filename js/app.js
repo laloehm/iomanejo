@@ -10,7 +10,7 @@ function reportWindowSize() {
     ancho.textContent = window.innerWidth;
     // division.style.height = ancho * .38 + 'px';
     division.forEach(element => {
-        element.style.height = ancho * .38 + 'px';
+        element.style.height = ancho * .37 + 'px';
     });
     
 }
