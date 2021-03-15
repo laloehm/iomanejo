@@ -72,31 +72,31 @@ let pricereforced = $('.precio_reforzado');
 reforced.on('change', function () {
     // console.log(basic.val())
     switch (reforced.val()) {
-        case '1 Hrs.':
+        case '1185':
             pricereforced.text(`$${(790 + 395)}`);
             break;
         
-        case '2 Hrs.':
+        case '1580':
             pricereforced.text(`$${(790 + (395 * 2))}`);
             break;
         
-        case '3 Hrs.':
+        case '1975':
             pricereforced.text(`$${(790 + (395 * 3))}`);
             break;
         
-        case '4 Hrs.':
+        case '2370':
             pricereforced.text(`$${(790 + (395 * 4))}`);
             break;
-        case '5 Hrs.':
+        case '2765':
             pricereforced.text(`$${(790 + (395 * 5))}`);
             break;
-        case '6 Hrs.':
+        case '3160':
             pricereforced.text(`$${(790 + (395 * 6))}`);
             break;
-        case '7 Hrs.':
+        case '3555.':
             pricereforced.text(`$${(790 + (395 * 7))}`);
             break;
-        case '8 Hrs.':
+        case '3950':
             pricereforced.text(`$${(790 + (395 * 8))}`);
             break;
         
@@ -115,6 +115,12 @@ function updateTotal() {
     });    
     $('#total').text('$' + total);
 }
+
+$('#armado_4').change(function(){  
+  let valor = $('#armado_4').val();  
+  $('#armado_5').val(valor);
+  console.log($('#armado_5').val())  
+});
 
 
 
