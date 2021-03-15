@@ -60,7 +60,7 @@
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos para <span>CARRETERA</span></p>
             </div>
         </div>
-        <div class="row wow fadeIn" data-wow-delay=".75s">
+        <!-- <div class="row wow fadeIn" data-wow-delay=".75s">
             <div class="col-3 pl-0">
                 <img src="images/Moto.png" class="img-fluid" alt="">
             </div>
@@ -68,13 +68,13 @@
                 <p class="number">3</p>
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos para <span>MOTOCICLETA</span></p>
             </div>
-        </div>
+        </div> -->
         <div class="row my-4 wow fadeIn" data-wow-delay="1s">
             <div class="col-3 pl-0">
                 <img src="images/Herramientas.png" class="img-fluid" alt="">
             </div>
             <div class="col-9 pr-0">
-                <p class="number">4</p>
+                <p class="number">3</p>
                 <p class="mb-o pb-4 pr-3 border-bottom">Cursos para <span>MÉCANICA GENERAL</span></p>
             </div>
         </div>
@@ -244,9 +244,9 @@
                 <p class="font-weight-bold">02</p>
             </div>
             <div class="col-10 py-3">
-                <p class="font-weight-bold">Arma tu curso</p>
-                <p>Puedes armar el curso que tú quieras con las horas que tú quieras a partir del curso medio y avanzado.</p>
-                <p>Modalidad: Elige un auto estándar o automático o ambos </p>
+                <p class="font-weight-bold">Fittipaldi</p>
+                <p class="mb-0">8 horas de practica en avenidas principales</p>
+                <p class="precio">$5,225</p>
             </div>
         </div>
         <!-- 3 -->
@@ -255,9 +255,9 @@
                 <p class="font-weight-bold">03</p>
             </div>
             <div class="col-10 py-3">
-                <p class="font-weight-bold">Fittipaldi</p>
-                <p class="mb-0">8 horas + 3 horas de Teoría + 2 horas de reforzamiento + mecánica general.</p>
-                <p class="precio">$3,267</p>
+                <p class="font-weight-bold">Senna</p>
+                <p class="mb-0">10 horas de practica en avenidas principales con técnicas para evitar accidentes</p>
+                <p class="precio">$6,787</p>
             </div>
         </div>
         <!-- 4 -->
@@ -265,24 +265,78 @@
             <div class="col-2 py-3">
                 <p class="font-weight-bold">04</p>
             </div>
-            <div class="col-10 py-3">
-                <p class="font-weight-bold">Senna</p>
-                <p class="mb-0">10 horas + 3 horas de Teoría + 4 horas de reforzamiento + mecánica general + aprende a cambiar llantas, pasar
-                    corriente, cambiar niveles</p>
-                <p class="precio"> $8,460</p>
+            <div class="col-10 py-3 border-bottom-0">
+                <p class="font-weight-bold">Schumacher</p>
+                <p class="mb-0">12 horas de practica en avenidas principales con técnicas para evitar accidentes</p>
+                <p class="precio">$8,478</p>
             </div>
         </div>
         <!-- 5 -->
-        <div class="row">
-            <div class="col-2 py-3">
-                <p class="font-weight-bold">05</p>
+        <form action="" name="miForm" id="miform">
+            <div class="row row_promociones">
+                <div class="col-2 py-3">
+                    <p class="font-weight-bold">05</p>
+                </div>
+                <div class="col-10 py-3">
+                    <p class="font-weight-bold">Arma tu curso</p>
+                    <div class="item">
+                        <p>8 horas de Práctica</p>
+                        <p class="precio">$2,290</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="checkbox" value="2290" class="" id="armado_1">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>10 horas de Práctica</p>
+                        <p class="precio">$3,790</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="checkbox" value="3790" class="" id="armado_2">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>12 horas de Práctica</p>
+                        <p class="precio">$4,548</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="checkbox" value="4548" class="" id="armado_3">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p>Reforzamiento</p>
+                        <p class="precio precio_reforzado">$790</p>
+                        <select class="reforzado" id="armado_4">
+                            <option class="text-center">-</option>
+                            <option value="1 Hrs.">1 Hrs.</option>
+                            <option value="2 Hrs.">2 Hrs.</option>
+                            <option value="3 Hrs.">3 Hrs.</option>
+                            <option value="4 Hrs.">4 Hrs.</option>
+                            <option value="5 Hrs.">5 Hrs.</option>
+                            <option value="6 Hrs.">6 Hrs.</option>
+                            <option value="7 Hrs.">7 Hrs.</option>
+                            <option value="8 Hrs.">8 Hrs.</option>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <p>Mecánica Básica</p>
+                        <p class="precio">$700</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="checkbox" value="700" class="" id="armado_5">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="pr-3">Teoría Reglamento de Tránsito Metropolitano</p>
+                        <p class="precio">$700</p>
+                        <div class="d-flex justify-content-center">
+                            <input type="checkbox" value="700" class="" id="armado_6">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="pr-3">Total</p>
+                        <p class="precio" id="total">$0</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-10 py-3 border-bottom-0">
-                <p class="font-weight-bold">Schumacher</p>
-                <p class="mb-0">12 horas + 3 horas de Teoría + 6 horas de reforzamiento + mecánica general + aprende a cambiar llantas, pasar corriente, cambiar niveles</p>
-                <p class="precio">$10,801</p>
-            </div>
-        </div>
+        </form>
+
     </section>
 
     <section class="instructores">
@@ -326,7 +380,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/instructores/Abraham.jpg" class="img-fluid" alt="">
+                            <img src="images/instructores/Dulce.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="carousel-item">
                             <img src="images/instructores/Eduardo.jpg" class="img-fluid" alt="">
@@ -339,6 +393,9 @@
                         </div>
                         <div class="carousel-item">
                             <img src="images/instructores/JoseEduardo.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/instructores/Norberto.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                     <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -373,9 +430,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script src="js/app.js"></script>
     <script src="js/wow.min.js"></script>
