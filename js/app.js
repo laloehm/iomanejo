@@ -72,32 +72,32 @@ let pricereforced = $('.precio_reforzado');
 reforced.on('change', function () {
     // console.log(basic.val())
     switch (reforced.val()) {
+        case '395':
+            pricereforced.text(`$${(395)}`);
+            break;
+        
+        case '790':
+            pricereforced.text(`$${(395 * 2)}`);
+            break;
+        
         case '1185':
-            pricereforced.text(`$${(790 + 395)}`);
+            pricereforced.text(`$${((395 * 3))}`);
             break;
         
         case '1580':
-            pricereforced.text(`$${(790 + (395 * 2))}`);
+            pricereforced.text(`$${((395 * 4))}`);
             break;
-        
         case '1975':
-            pricereforced.text(`$${(790 + (395 * 3))}`);
+            pricereforced.text(`$${((395 * 5))}`);
             break;
-        
         case '2370':
-            pricereforced.text(`$${(790 + (395 * 4))}`);
+            pricereforced.text(`$${((395 * 6))}`);
             break;
         case '2765':
-            pricereforced.text(`$${(790 + (395 * 5))}`);
+            pricereforced.text(`$${((395 * 7))}`);
             break;
         case '3160':
-            pricereforced.text(`$${(790 + (395 * 6))}`);
-            break;
-        case '3555.':
-            pricereforced.text(`$${(790 + (395 * 7))}`);
-            break;
-        case '3950':
-            pricereforced.text(`$${(790 + (395 * 8))}`);
+            pricereforced.text(`$${((395 * 8))}`);
             break;
         
         default:
