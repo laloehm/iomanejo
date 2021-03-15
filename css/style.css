@@ -204,6 +204,9 @@ p.number {
     height: 15px;
     font-size: 8px;
 }
+.promociones .nota{
+    font-size:8px;
+}
 
 /* Instructores */
 .instructores ul {
