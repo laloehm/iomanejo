@@ -73,11 +73,11 @@ reforced.on('change', function () {
     // console.log(basic.val())
     switch (reforced.val()) {
         case '395':
-            pricereforced.text(`$${(395)}`);
+            pricereforced.text(`$${((395))}`);
             break;
         
         case '790':
-            pricereforced.text(`$${(395 * 2)}`);
+            pricereforced.text(`$${((395 * 2))}`);
             break;
         
         case '1185':
