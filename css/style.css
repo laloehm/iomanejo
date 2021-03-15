@@ -196,12 +196,16 @@ p.number {
 
 .row_promociones .item {
     display: grid;
-    grid-template-columns: 6fr 4fr 2fr;
+    grid-template-columns: 6fr 3fr 3fr;
 }
 
 .row_promociones select {
     background: #fff;
     height: 15px;
+    font-size: 8px;
+}
+
+.promociones .nota {
     font-size: 8px;
 }
 

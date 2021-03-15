@@ -103,11 +103,13 @@
                 <p>Atención a conductores nerviosos y primerizos.</P>
             </div>
         </div>
+        <!--
         <div class="row pr-5">
             <p class="text-uppercase">Todos los cursos incluyen curso teórico del Reglamento de Tránsito Metropolitano, Tips en Condiciones Adversas y Cuidado Preventivo del Vehículo.</p>
         </div>
+    -->
     </section>
-    <div class="division">
+    <div class="division mt-5">
         <img src="images/Dots-Precios.png" class="img-fluid" alt=""></div>
     <section class="precios">
         <h2 class="title px-5 mb-5">PRECIOS</h2>
@@ -244,9 +246,8 @@
                 <p class="font-weight-bold">02</p>
             </div>
             <div class="col-10 py-3">
-                <p class="font-weight-bold">Fittipaldi</p>
-                <p class="mb-0">8 horas de practica en avenidas principales</p>
-                <p class="precio">$5,225</p>
+                <p class="mb-0">Curso teórico del Reglamento de Transito Metropolitano + cuidados del vehículo + conducción en situaciones adversas.</p>
+                <p class="precio">$790</p>
             </div>
         </div>
         <!-- 3 -->
@@ -255,9 +256,9 @@
                 <p class="font-weight-bold">03</p>
             </div>
             <div class="col-10 py-3">
-                <p class="font-weight-bold">Senna</p>
-                <p class="mb-0">10 horas de practica en avenidas principales con técnicas para evitar accidentes</p>
-                <p class="precio">$6,787</p>
+                <p class="font-weight-bold">Fittipaldi</p>
+                <p class="mb-0">8 horas de practica en avenidas principales</p>
+                <p class="precio">$5,225</p>
             </div>
         </div>
         <!-- 4 -->
@@ -265,17 +266,28 @@
             <div class="col-2 py-3">
                 <p class="font-weight-bold">04</p>
             </div>
-            <div class="col-10 py-3 border-bottom-0">
+            <div class="col-10 py-3">
+                <p class="font-weight-bold">Senna</p>
+                <p class="mb-0">10 horas de practica en avenidas principales con técnicas para evitar accidentes</p>
+                <p class="precio">$6,787</p>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="row">
+            <div class="col-2 py-3">
+                <p class="font-weight-bold">05</p>
+            </div>
+            <div class="col-10 py-3">
                 <p class="font-weight-bold">Schumacher</p>
                 <p class="mb-0">12 horas de practica en avenidas principales con técnicas para evitar accidentes</p>
                 <p class="precio">$8,478</p>
             </div>
         </div>
-        <!-- 5 -->
+        <!-- 6 -->
         <form action="" name="miForm" id="miform">
             <div class="row row_promociones">
                 <div class="col-2 py-3">
-                    <p class="font-weight-bold">05</p>
+                    <p class="font-weight-bold">06</p>
                 </div>
                 <div class="col-10 py-3">
                     <p class="font-weight-bold">Arma tu curso</p>
@@ -287,14 +299,20 @@
                         </div>
                     </div>
                     <div class="item">
-                        <p>10 horas de Práctica</p>
+                        <div>
+                            <p class="mb-0">10 horas de Práctica</p>
+                            <p class="nota">(Avenidas principales y técnincas para evitar accidentes.)</p>
+                        </div>
                         <p class="precio">$3,790</p>
                         <div class="d-flex justify-content-center">
                             <input type="checkbox" value="3790" class="" id="armado_2">
                         </div>
                     </div>
                     <div class="item">
-                        <p>12 horas de Práctica</p>
+                        <div>
+                            <p class="mb-0">12 horas de Práctica</p>
+                            <p class="nota">(Avenidas principales y técnincas para evitar accidentes.)</p>
+                        </div>
                         <p class="precio">$4,548</p>
                         <div class="d-flex justify-content-center">
                             <input type="checkbox" value="4548" class="" id="armado_3">
@@ -302,31 +320,33 @@
                     </div>
                     <div class="item">
                         <p>Reforzamiento</p>
-                        <p class="precio precio_reforzado">$790</p>
-                        <select class="reforzado" id="armado_4">
-                            <option class="text-center">-</option>
-                            <option value="1 Hrs.">1 Hrs.</option>
-                            <option value="2 Hrs.">2 Hrs.</option>
-                            <option value="3 Hrs.">3 Hrs.</option>
-                            <option value="4 Hrs.">4 Hrs.</option>
-                            <option value="5 Hrs.">5 Hrs.</option>
-                            <option value="6 Hrs.">6 Hrs.</option>
-                            <option value="">7 Hrs.</option>
-                            <option value="3950">8 Hrs.</option>
-                        </select>
+                        <p class="precio precio_reforzado">$395</p>
+                        <div class="d-flex justify-content-center">
+                            <select class="reforzado" id="armado_4">
+                                <option value="395">1 Hrs.</option>
+                                <option value="790">2 Hrs.</option>
+                                <option value="1185">3 Hrs.</option>
+                                <option value="1580">4 Hrs.</option>
+                                <option value="1975">5 Hrs.</option>
+                                <option value="2370">6 Hrs.</option>
+                                <option value="2765">7 Hrs.</option>
+                                <option value="3160">8 Hrs.</option>
+                            </select>
+                            <input type="checkbox" value="700" class="" id="armado_5">
+                        </div>
                     </div>
                     <div class="item">
                         <p>Mecánica Básica</p>
                         <p class="precio">$700</p>
                         <div class="d-flex justify-content-center">
-                            <input type="checkbox" value="700" class="" id="armado_5">
+                            <input type="checkbox" value="700" class="" id="armado_6">
                         </div>
                     </div>
                     <div class="item">
                         <p class="pr-3">Teoría Reglamento de Tránsito Metropolitano</p>
                         <p class="precio">$700</p>
                         <div class="d-flex justify-content-center">
-                            <input type="checkbox" value="700" class="" id="armado_6">
+                            <input type="checkbox" value="700" class="" id="armado_7">
                         </div>
                     </div>
                     <div class="item">
@@ -440,7 +460,6 @@
     <script>
         new WOW().init();
     </script>
-
 </body>
 
 </html>

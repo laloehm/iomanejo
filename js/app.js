@@ -1,4 +1,3 @@
-
 // alert("La resolución de tu pantalla es: " + screen.width + " x " + screen.height) 
 
 // let ancho = screen.width;
@@ -72,32 +71,32 @@ let pricereforced = $('.precio_reforzado');
 reforced.on('change', function () {
     // console.log(basic.val())
     switch (reforced.val()) {
-        case '1 Hrs.':
-            pricereforced.text(`$${(790 + 395)}`);
+        case '395':
+            pricereforced.text(`$${((395))}`);
             break;
         
-        case '2 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 2))}`);
+        case '790':
+            pricereforced.text(`$${((395 * 2))}`);
             break;
         
-        case '3 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 3))}`);
+        case '1185':
+            pricereforced.text(`$${((395 * 3))}`);
             break;
         
-        case '4 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 4))}`);
+        case '1580':
+            pricereforced.text(`$${((395 * 4))}`);
             break;
-        case '5 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 5))}`);
+        case '1975':
+            pricereforced.text(`$${((395 * 5))}`);
             break;
-        case '6 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 6))}`);
+        case '2370':
+            pricereforced.text(`$${((395 * 6))}`);
             break;
-        case '7 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 7))}`);
+        case '2765':
+            pricereforced.text(`$${((395 * 7))}`);
             break;
-        case '8 Hrs.':
-            pricereforced.text(`$${(790 + (395 * 8))}`);
+        case '3160':
+            pricereforced.text(`$${((395 * 8))}`);
             break;
         
         default:
@@ -116,7 +115,8 @@ function updateTotal() {
     $('#total').text('$' + total);
 }
 
-
-
-	
-
+$('#armado_4').change(function(){  
+  let valor = $('#armado_4').val();  
+  $('#armado_5').val(valor);
+  console.log($('#armado_5').val())  
+});
