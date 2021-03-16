@@ -16,12 +16,15 @@
     font-family: 'Nexa-Regular', serif;
 }
 
+.font_11 {
+    font-size: 11px;
+}
+
 @media (min-width: 400px) {
     * {
         font-size: 14px;
     }
 }
-
 
 section {
     max-width: 700px;
@@ -30,6 +33,7 @@ section {
 
 .row {
     margin: 0;
+    width: 100%;
 }
 
 h2.title {
@@ -170,6 +174,12 @@ p.number {
 
 .precios p.precios {
     font-family: 'Nexa-Bold', serif;
+    margin-bottom: 5px;
+}
+
+.precios select {
+    border: 1px solid;
+    margin-right: 5px;
 }
 
 /* PROMOCIONES */

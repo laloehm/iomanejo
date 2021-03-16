@@ -66,7 +66,7 @@ let seis = 700;
 // });
 
 let reforced = $('.reforzado');
-let pricereforced = $('.precio_reforzado');
+let pricereforced = $('.precio_reforzamiento');
 
 reforced.on('change', function () {
     // console.log(basic.val())
@@ -103,16 +103,46 @@ reforced.on('change', function () {
             break;
     }
 })
+let horasmanejo= $('.horas_manejo');
+let pricemanejo = $('.precio_manejo');
+
+horasmanejo.on('change', function () {
+    // console.log(basic.val())
+    switch (horasmanejo.val()) {
+        case '2990':
+            pricemanejo.text(`$${((2990))} MXN`);
+            break;        
+        case '3780':
+            pricemanejo.text(`$${((3780))} MXN`);
+            break;        
+        case '4570':
+            pricemanejo.text(`$${((4570))} MXN`);
+            break;        
+        case '5360':
+            pricemanejo.text(`$${((5360))} MXN`);
+            break;
+        case '6150':
+            pricemanejo.text(`$${((6150))} MXN`);
+            break;
+        case '6940':
+            pricemanejo.text(`$${((6940))} MXN`);
+            break;
+        case '7730':
+            pricemanejo.text(`$${((7730))} MXN`);
+            break;        
+        default:
+            break;
+    }
+})
 
 $(':radio, :checkbox').change(updateTotal);
 
 function updateTotal() {
     var total = 0;
-    let totalreforzado = 0;
     $(':radio:checked, :checkbox:checked').each(function () {
         total += parseInt(this.value);
     });    
-    $('#total').text('$' + total);
+    $('#total').text('$' + total + ' MXN');
 }
 
 $('#armado_4').change(function(){  
@@ -120,3 +150,19 @@ $('#armado_4').change(function(){
   $('#armado_5').val(valor);
   console.log($('#armado_5').val())  
 });
+$('#horas_manejo').change(function(){  
+  let valor = $('#horas_manejo').val();  
+  $('#input_manejo').val(valor);
+    console.log($('#input_manejo').val());
+});
+
+$('#horas_manejo').parent().click(function () {
+    if ($('#input_manejo').prop('checked')) {
+        $('#input_manejo').prop('checked',false)
+    }
+})
+$('#armado_4').parent().click(function () {
+    if ($('#armado_5').prop('checked')) {
+        $('#armado_5').prop('checked',false)
+    }
+})
