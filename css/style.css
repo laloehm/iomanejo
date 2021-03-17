@@ -65,12 +65,18 @@ h2.title {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.home h1{
+    color: #94e300;
+    font-family: 'Nexa-Bold';
+    margin: 30px 0 15px 0;
+}
 
 .home .box-logo {
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .home .box-logo img {
