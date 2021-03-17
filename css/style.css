@@ -68,7 +68,8 @@ h2.title {
 .home h1{
     color: #94e300;
     font-family: 'Nexa-Bold';
-    margin: 30px 0 15px 0;
+    margin: 30px 0 20px 0;
+    font-size: 1.7rem;
 }
 
 .home .box-logo {
